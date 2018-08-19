@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{97883ce9-829c-48c4-8065-2ef5984d61e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{a9cdb10a-3528-4eac-a32c-a0848ebf140e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="station.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="farmer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="soldier.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="station.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
